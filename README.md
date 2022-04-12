@@ -21,10 +21,10 @@ Contains the main application which knows all the other modules and loads the wh
 
 Use ***DemoApplication:main*** to run the app
 
-# Producer
+## Producer
 
 Creates a random message with two numbers and sends it via camel to the consumer. It waits for the response and logs it out
 
-# Consumer
+## Consumer
 
 Consumes a message via camel, calculates a summary and returns it.
